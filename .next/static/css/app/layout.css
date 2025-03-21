@@ -807,18 +807,6 @@ video {
   width: 2.5rem;
   height: 2.5rem;
 }
-.size-11 {
-  width: 2.75rem;
-  height: 2.75rem;
-}
-.size-12 {
-  width: 3rem;
-  height: 3rem;
-}
-.size-32 {
-  width: 8rem;
-  height: 8rem;
-}
 .h-0 {
   height: 0px;
 }
@@ -966,8 +954,8 @@ video {
 .w-\[1em\] {
   width: 1em;
 }
-.w-\[80vw\] {
-  width: 80vw;
+.w-\[90vw\] {
+  width: 90vw;
 }
 .w-\[calc\(100\%-16px\)\] {
   width: calc(100% - 16px);
@@ -980,12 +968,6 @@ video {
 }
 .w-screen {
   width: 100vw;
-}
-.w-\[890vw\] {
-  width: 890vw;
-}
-.w-\[90vw\] {
-  width: 90vw;
 }
 .min-w-3 {
   min-width: 0.75rem;
@@ -1106,14 +1088,8 @@ video {
 .content-center {
   align-content: center;
 }
-.content-end {
-  align-content: flex-end;
-}
 .items-start {
   align-items: flex-start;
-}
-.items-end {
-  align-items: flex-end;
 }
 .items-center {
   align-items: center;
@@ -1149,11 +1125,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.125rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.125rem * var(--tw-space-y-reverse));
-}
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 .space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -1334,14 +1305,14 @@ video {
 .bg-warning\/10 {
   background-color: rgb(var(--color-warning) / 0.1);
 }
+.bg-opacity-75 {
+  --tw-bg-opacity: 0.75;
+}
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-.bg-none {
-  background-image: none;
 }
 .from-error-dark {
   --tw-gradient-from: rgb(var(--color-error-dark) / 1) var(--tw-gradient-from-position);
@@ -1503,6 +1474,10 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -1656,6 +1631,14 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(var(--color-white) / var(--tw-text-opacity, 1));
+}
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
 }
 .antialiased {
   -webkit-font-smoothing: antialiased;

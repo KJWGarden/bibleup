@@ -21,8 +21,8 @@ export default function DrawerWithNavigation() {
 
   return (
     <Drawer>
-      <Drawer.Trigger as={IconButton}>
-        <Menu />
+      <Drawer.Trigger as={IconButton} variant="ghost" className="text-white">
+        <Menu className="size-10" />
       </Drawer.Trigger>
       <Drawer.Overlay>
         <Drawer.Panel placement="right" className="p-0">
