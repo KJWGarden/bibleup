@@ -776,6 +776,9 @@ video {
 .ms-auto {
   margin-inline-start: auto;
 }
+.mt-3 {
+  margin-top: 0.75rem;
+}
 .block {
   display: block;
 }
@@ -873,6 +876,9 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-\[18px\] {
+  height: 18px;
+}
 .max-h-\[calc\(100vh-32px\)\] {
   max-height: calc(100vh - 32px);
 }
@@ -968,6 +974,9 @@ video {
 }
 .w-screen {
   width: 100vw;
+}
+.w-\[18px\] {
+  width: 18px;
 }
 .min-w-3 {
   min-width: 0.75rem;

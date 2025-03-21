@@ -21,7 +21,7 @@ export default function Home() {
         <main className="flex w-[90vw] justify-center items-center text-white text-2xl">
           메인섹션입니다.
         </main>
-        <aside className="h-screen flex flex-col text-white space-y-10 content-center justify-center ">
+        <aside className="h-screen flex flex-col text-white space-y-10 content-center justify-center px-4">
           <div className="bg-black rounded-lg p-1 bg-opacity-75">
             <CommentDrawer />
           </div>
