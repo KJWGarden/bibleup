@@ -16,7 +16,7 @@
 # misc
 .DS_Store
 *.pem
-
+git
 # debug
 npm-debug.log*
 yarn-debug.log*
